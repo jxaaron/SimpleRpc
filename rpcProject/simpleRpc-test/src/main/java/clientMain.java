@@ -8,6 +8,8 @@ public class clientMain {
         helloWorldService helloWorld=RpcClient.createService(helloWorldService.class,"2.0");
         String result =helloWorld.sayHello("xiaozi");
         System.out.println(result);
+
+        // 测试缓存文件删除
     }
 
 }
