@@ -10,6 +10,7 @@ public class clientMain {
         System.out.println(result);
 
         // 测试缓存文件删除
+
     }
 
 }
