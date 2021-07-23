@@ -7,6 +7,7 @@ import com.rpc.server.service.impl.helloWordServiceImpl;
  * @author huangjiaxin
  */
 public class serverMain {
+    // 注册服务
     public static void main(String[] args) {
         String remoteAddress = "39.102.37.124:2181";
         String localAddress = "127.0.0.1:18877";
